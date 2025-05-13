@@ -10,7 +10,7 @@ export default function Home() {
 
       <div className="rs-smoother-yes">
 
-        
+
 
         <div id="rs-mouse">
           <div id="cursor-ball"></div>
@@ -23,7 +23,7 @@ export default function Home() {
                 <div className="rs-header-left">
                   <div className="rs-header-logo-wrapper">
                     <div className="rs-header-logo">
-                      <a href="index.html"><img style={{display : 'block',height : '80px'}} src="assets/images/top-logo.svg" alt="logo" /> </a>
+                      <a href="index.html"><img style={{ display: 'block', height: '80px' }} src="assets/images/top-logo.svg" alt="logo" /> </a>
                     </div>
                   </div>
                 </div>
@@ -41,21 +41,21 @@ export default function Home() {
                         <ul className="submenu last-children">
                           <li className=" ">
                             <a href="#">OIL & GAS</a>
-                         
+
                           </li>
                           <li className=" ">
                             <a href="#">MARINE</a>
-                         
+
                           </li>
                           <li className=" ">
                             <a href="#">FMCG</a>
-                         
+
                           </li>
                           <li className="menu-item-has-children has-arrow">
                             <a href="javaScript:void(0)">multiple</a>
                             <ul className="submenu">
                               <li><a href="industrie-one-page.html">Industrie Onepage</a></li>
-                              
+
                             </ul>
                           </li>
                         </ul>
@@ -65,24 +65,68 @@ export default function Home() {
                         <ul className="submenu last-children">
                           <li>
                             <a href="#">Specialized Water Jetting</a>
+                            <ul className="submenu">
+                              <li>
+                                <a href="#">Heat Exchanger Maintenance</a>
+                              </li>
+                              <li>
+                                <a href="#">Chemical Cleaning</a>
+                              </li>
+                              <li>
+                                <a href="#">Surface Prep & Coating</a>
+                              </li>
+                              <li>
+                                <a href="#">Torquing & Tensioning</a>
+                              </li>
+                              <li>
+                                <a href="#">Controlled Hydro Demolition</a>
+                              </li>
+                              <li>
+                                <a href="#">Decontamination Services</a>
+                              </li>
+                            </ul>
                           </li>
                           <li>
-                            <a href="#">Heat Exchanger Maintenance</a>
+                            <a href="#">Heat Exchanger Cleaning</a>
+                            <ul className="submenu">
+                              <li>
+                                <a href="#">Hydro-Abrasive Cold Cutting</a>
+                              </li>
+                              <li>
+                                <a href="#">Pipeline Flushing</a>
+                              </li>
+                              <li>
+                                <a href="#">Turnaround Maintenance</a>
+                              </li>
+                              <li>
+                                <a href="#">Pre-Commissioning Activities</a>
+                              </li>
+                              <li>
+                                <a href="#">N2 Services</a>
+                              </li>
+                           
+                            </ul>
                           </li>
                           <li>
-                            <a href="#">Chemical Cleaning</a>
-                          </li>
-                          <li>
-                            <a href="#">Surface Prep & Coating</a>
-                          </li>
-                          <li>
-                            <a href="#">Torquing & Tensioning</a>
-                          </li>
-                          <li>
-                            <a href="#">Controlled Hydro Demolition</a>
-                          </li>
-                          <li>
-                            <a href="#">Decontamination Services</a>
+                            <a href="#">Oil Tank Cleaning</a>
+                            <ul className="submenu">
+                              <li>
+                                <a href="#">UH Pressure Blasting</a>
+                              </li>
+                              <li>
+                                <a href="#">Dewatering</a>
+                              </li>
+                              <li>
+                                <a href="#">Pneumatic Test</a>
+                              </li>
+                              <li>
+                                <a href="#">Industrial Cold Cutting</a>
+                              </li>
+                              <li>
+                                <a href="#">Bundle Pulling</a>
+                              </li>
+                           
+                            </ul>
                           </li>
                         </ul>
                       </li>
@@ -91,40 +135,88 @@ export default function Home() {
                         <a href="#">Insights</a>
                         <ul className="submenu last-children">
                           <li>
-                            <a href="#">Specialized Water Jetting</a>
+                            <a href="#">Blogs</a>
                           </li>
                           <li>
-                            <a href="#">Heat Exchanger Maintenance</a>
+                            <a href="#">R & D</a>
                           </li>
                           <li>
-                            <a href="#">Chemical Cleaning</a>
+                            <a href="#">Portfolio
+                            </a>
                           </li>
                           <li>
-                            <a href="#">Surface Prep & Coating</a>
+                            <a href="#">Certifications</a>
                           </li>
                           <li>
-                            <a href="#">Torquing & Tensioning</a>
+                            <a href="#">Videos
+                            </a>
                           </li>
                           <li>
-                            <a href="#">Controlled Hydro Demolition</a>
+                            <a href="#">eBrochure</a>
                           </li>
-                          <li>
-                            <a href="#">Decontamination Services</a>
-                          </li>
+                          
                         </ul>
                       </li>
 
-                  
-                  
+                      <li className="menu-item-has-children ">
+                        <a href="#">Careers</a>
+                        <ul className="submenu last-children">
+                          <li>
+                            <a href="#">Search & APPLY
+
+</a>
+                          </li>
+                          <li>
+                            <a href="#">TRAINING & DEVELOPMENT</a>
+                          </li>
+                          <li>
+                            <a href="#">DELIGHT@WORK
+                            </a>
+                          </li>
+                         
+                          
+                        </ul>
+                      </li>
+
+                      <li className="menu-item-has-children ">
+                        <a href="#">About</a>
+                        <ul className="submenu last-children">
+                          <li>
+                            <a href="#">About Delight</a>
+                          </li>
+                          <li>
+                            <a href="#">Awards and Recognitions</a>
+                          </li>
+                          <li>
+                            <a href="#">Leadership
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">Health & Safety
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">Partner Network
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">Our Values
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">News
+                            </a>
+                          </li>
+                         
+                          
+                        </ul>
+                      </li>
+
+
+
+
 
                      
-                      <li className="">
-                        <a href="/sjfks.html">About Us</a>
-                      </li>
-                      <li className="">
-                        <a href="/jahsbf.html">Contact</a>
-                        
-                      </li>
                     </ul>
                   </nav>
                 </div>
@@ -246,7 +338,7 @@ export default function Home() {
                       </div>
                       <div className="offcanvas-contact-text">
                         <a href="#"> P.O. Box 574111 Nandikur Industrial Area, <br />
-                        Udupi, India </a>
+                          Udupi, India </a>
                       </div>
                     </li>
                     <li className="d-flex align-items-center gap-15">
@@ -291,10 +383,10 @@ export default function Home() {
 
         <main>
 
-          
+
           <section className="rs-banner-area rs-banner-one p-relative rs-swiper">
             <div className="rs-banner-shape">
-              <img src="assets/images/shape/half-arrow.png" alt="image"/>
+              <img src="assets/images/shape/half-arrow.png" alt="image" />
             </div>
             <div className="container">
               <div className="row align-items-center  g-5">
@@ -306,8 +398,8 @@ export default function Home() {
                     </div>
                     <div className="rs-banner-contact-item">
                       <span>Call.</span>
-                      <h6><a href="tel:+918242434677"> 
-                      +91 8242434677</a></h6>
+                      <h6><a href="tel:+918242434677">
+                        +91 8242434677</a></h6>
                     </div>
                   </div>
                 </div>
@@ -318,14 +410,15 @@ export default function Home() {
                 <div className="swiper-wrapper">
                   <div className="swiper-slide">
                     <div className="rs-banner-item-wrapper">
-                      <div className="rs-banner-bg-thumb" data-background="assets/images/bg/banner-bg-01.png">
+                      {/* <div className="rs-banner-bg-thumb" data-background="assets/images/bg/banner-bg-01.png"> */}
+                      <div className="rs-banner-bg-thumb" data-background="assets/images/bg/b1.webp">
                       </div>
                       <div className="container">
                         <div className="row">
                           <div className="col-xxl-8 col-xl-8 col-lg-10">
                             <div className="rs-banner-item">
                               <div className="rs-banner-content">
-                                <h1 className="rs-banner-title">Leader in industrial Factory around <br/> the world
+                                <h1 className="rs-banner-title">Leader in industrial Factory around <br /> the world
                                 </h1>
                                 <div className="rs-banner-descrip">
                                   <p>We face each project as a new challenge and with our ability to build and
@@ -364,14 +457,15 @@ export default function Home() {
                   </div>
                   <div className="swiper-slide">
                     <div className="rs-banner-item-wrapper">
-                      <div className="rs-banner-bg-thumb" data-background="assets/images/bg/banner-bg-02.png">
+                      {/* <div className="rs-banner-bg-thumb" data-background="assets/images/bg/banner-bg-02.png"> */}
+                      <div className="rs-banner-bg-thumb" data-background="assets/images/bg/b2.webp">
                       </div>
                       <div className="container">
                         <div className="row">
                           <div className="col-xxl-8 col-xl-8 col-lg-10">
                             <div className="rs-banner-item">
                               <div className="rs-banner-content">
-                                <h1 className="rs-banner-title">Moving Your Industry Manufacturing <br/> Forward </h1>
+                                <h1 className="rs-banner-title">Moving Your Industry Manufacturing <br /> Forward </h1>
                                 <div className="rs-banner-descrip">
                                   <p>We face each project as a new challenge and with our ability to build and
                                     innovate we overcome all barriers to using content. </p>
@@ -407,23 +501,23 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div style={{height : '500px'}}>
+                  <div style={{ height: '500px' }}>
 
                   </div>
                 </div>
-            
+
                 <div className="rs-banner-navigation">
                   <button className="swiper-button-prev rs-swiper-btn"><i className="fa-regular fa-arrow-left"></i></button>
                   <button className="swiper-button-next rs-swiper-btn"><i className="fa-regular fa-arrow-right"></i></button>
                 </div>
-         
+
                 <div className="rs-banner-pagination d-block d-md-none">
                   <div className="swiper-pagination rs-pagination has-theme-orange"></div>
                 </div>
               </div>
             </div>
           </section>
-        
+
           <section className="rs-feature-area section-space rs-feature-one">
             <div className="container">
               <div className="row g-5 process-counts">
@@ -504,7 +598,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-       
+
           <section className="rs-about-area section-space-bottom rs-about-one">
             <div className="container">
               <div className="row  g-5">
@@ -520,8 +614,8 @@ export default function Home() {
                       About Us
                     </span>
                     <h2 className="rs-section-title rs-split-text-enable split-in-fade">We work for you <span
-                      className="rs-theme-orange">since 1989. </span> 
-                        Around the world</h2>
+                      className="rs-theme-orange">since 1989. </span>
+                      Around the world</h2>
                   </div>
                 </div>
                 <div className="col-xl-5 col-lg-5">
@@ -561,7 +655,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-         /
+          /
           <div className="rs-counter-area rs-counter-one section-space-bottom">
             <div className="container">
               <div className="row g-5">
@@ -612,10 +706,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-        /
+          /
           <section className="rs-services-area section-space-top rs-services-one primary-bg p-relative">
             <div className="rs-services-shape">
-              <img src="assets/images/shape/wave-shape-01.png" alt="image"/>
+              <img src="assets/images/shape/wave-shape-01.png" alt="image" />
             </div>
             <div className="container">
               <div className="row  g-5 section-title-space align-items-center">
@@ -729,7 +823,7 @@ export default function Home() {
                           <div className="row g-5 align-items-center">
                             <div className="col-xl-6 col-lg-6">
                               <div className="rs-services-tab-content-thumb has-clip">
-                                <img src="assets/images/services/services-thumb-01.png" alt="image"/>
+                                <img src="assets/images/services/services-thumb-01.png" alt="image" />
                               </div>
                             </div>
                             <div className="col-xl-6 col-lg-6">
@@ -773,7 +867,7 @@ export default function Home() {
                           <div className="row g-5 align-items-center">
                             <div className="col-xl-6 col-lg-6">
                               <div className="rs-services-tab-content-thumb has-clip">
-                                <img src="assets/images/services/services-thumb-02.png" alt="image"/>
+                                <img src="assets/images/services/services-thumb-02.png" alt="image" />
                               </div>
                             </div>
                             <div className="col-xl-6 col-lg-6">
@@ -816,7 +910,7 @@ export default function Home() {
                           <div className="row g-5 align-items-center">
                             <div className="col-xl-6 col-lg-6">
                               <div className="rs-services-tab-content-thumb has-clip">
-                                <img src="assets/images/services/services-thumb-03.png" alt="image"/>
+                                <img src="assets/images/services/services-thumb-03.png" alt="image" />
                               </div>
                             </div>
                             <div className="col-xl-6 col-lg-6">
@@ -860,7 +954,7 @@ export default function Home() {
                           <div className="row g-5 align-items-center">
                             <div className="col-xl-6 col-lg-6">
                               <div className="rs-services-tab-content-thumb has-clip">
-                                <img src="assets/images/services/services-thumb-04.png" alt="image"/>
+                                <img src="assets/images/services/services-thumb-04.png" alt="image" />
                               </div>
                             </div>
                             <div className="col-xl-6 col-lg-6">
@@ -904,7 +998,7 @@ export default function Home() {
                           <div className="row g-5 align-items-center">
                             <div className="col-xl-6 col-lg-6">
                               <div className="rs-services-tab-content-thumb has-clip">
-                                <img src="assets/images/services/services-thumb-05.png" alt="image"/>
+                                <img src="assets/images/services/services-thumb-05.png" alt="image" />
                               </div>
                             </div>
                             <div className="col-xl-6 col-lg-6">
@@ -947,7 +1041,7 @@ export default function Home() {
                           <div className="row g-5 align-items-center">
                             <div className="col-xl-6 col-lg-6">
                               <div className="rs-services-tab-content-thumb has-clip">
-                                <img src="assets/images/services/services-thumb-06.png" alt="image"/>
+                                <img src="assets/images/services/services-thumb-06.png" alt="image" />
                               </div>
                             </div>
                             <div className="col-xl-6 col-lg-6">
@@ -992,7 +1086,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-        
+
           <section className="rs-work-step-area rs-work-step-one section-space-bottom primary-bg">
             <div className="container">
               <div className="row">
@@ -1068,7 +1162,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-         
+
           <section className="rs-portfolio-area section-space-top rs-portfolio-one rs-swiper">
             <div className="container">
               <div className="row  g-5 section-title-space align-items-end">
@@ -1087,7 +1181,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="col-xxl-5 col-xl-4 col-lg-4">
-         
+
                   <div className=" rs-portfolio-navigation">
                     <button className="swiper-button-prev rs-swiper-btn has-bg-light"><i
                       className="fa-regular fa-arrow-left"></i></button>
@@ -1104,7 +1198,7 @@ export default function Home() {
                         <div className="swiper-slide">
                           <div className="rs-portfolio-item">
                             <div className="rs-portfolio-thumb">
-                              <img src="assets/images/portfolio/portfolio-thumb-01.png" alt="image"/>
+                              <img src="assets/images/portfolio/portfolio-thumb-01.png" alt="image" />
                             </div>
                             <div className="rs-portfolio-content">
                               <div className="rs-portfolio-tag">
@@ -1136,7 +1230,7 @@ export default function Home() {
                         <div className="swiper-slide">
                           <div className="rs-portfolio-item">
                             <div className="rs-portfolio-thumb has-clip-path">
-                              <img src="assets/images/portfolio/portfolio-thumb-02.png" alt="image"/>
+                              <img src="assets/images/portfolio/portfolio-thumb-02.png" alt="image" />
                             </div>
                             <div className="rs-portfolio-content">
                               <div className="rs-portfolio-tag">
@@ -1168,7 +1262,7 @@ export default function Home() {
                         <div className="swiper-slide">
                           <div className="rs-portfolio-item">
                             <div className="rs-portfolio-thumb has-clip-path">
-                              <img src="assets/images/portfolio/portfolio-thumb-03.png" alt="image"/>
+                              <img src="assets/images/portfolio/portfolio-thumb-03.png" alt="image" />
                             </div>
                             <div className="rs-portfolio-content">
                               <div className="rs-portfolio-tag">
@@ -1199,7 +1293,7 @@ export default function Home() {
                         <div className="swiper-slide">
                           <div className="rs-portfolio-item">
                             <div className="rs-portfolio-thumb has-clip-path">
-                              <img src="assets/images/portfolio/portfolio-thumb-04.png" alt="image"/>
+                              <img src="assets/images/portfolio/portfolio-thumb-04.png" alt="image" />
                             </div>
                             <div className="rs-portfolio-content">
                               <div className="rs-portfolio-tag">
@@ -1235,7 +1329,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-       /
+          /
           <div className="rs-cta-area rs-cta-one ">
             <div className="container">
               <div className="rs-cta-wrapper">
@@ -1282,7 +1376,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-       /
+          /
           <section className="rs-team-area section-space rs-team-one">
             <div className="container">
               <div className="row  g-5 justify-content-center section-title-space align-items-center">
@@ -1305,7 +1399,7 @@ export default function Home() {
                 <div className="col-xl-4 col-lg-4 col-md-6">
                   <div className="rs-team-item wow fadeInUp" data-wow-delay=".3s" data-wow-duration="1s">
                     <div className="rs-team-thumb has-clip">
-                      <a href="team-details.html"><img src="assets/images/team/team-thumb-01.png" alt="image"/></a>
+                      <a href="team-details.html"><img src="assets/images/team/team-thumb-01.png" alt="image" /></a>
                       <div className="rs-theme-social rs-team-social has-transparent">
                         <a href="#"><i className="ri-twitter-x-line"></i></a>
                         <a href="#"><i className="ri-facebook-fill"></i></a>
@@ -1323,7 +1417,7 @@ export default function Home() {
                 <div className="col-xl-4 col-lg-4 col-md-6">
                   <div className="rs-team-item wow fadeInUp" data-wow-delay=".5s" data-wow-duration="1s">
                     <div className="rs-team-thumb has-clip">
-                      <a href="team-details.html"> <img src="assets/images/team/team-thumb-02.png" alt="image"/></a>
+                      <a href="team-details.html"> <img src="assets/images/team/team-thumb-02.png" alt="image" /></a>
                       <div className="rs-theme-social rs-team-social has-transparent">
                         <a href="#"><i className="ri-twitter-x-line"></i></a>
                         <a href="#"><i className="ri-facebook-fill"></i></a>
@@ -1341,7 +1435,7 @@ export default function Home() {
                 <div className="col-xl-4 col-lg-4 col-md-6">
                   <div className="rs-team-item wow fadeInUp" data-wow-delay=".7s" data-wow-duration="1s">
                     <div className="rs-team-thumb has-clip">
-                      <a href="team-details.html"><img src="assets/images/team/team-thumb-03.png" alt="image"/></a>
+                      <a href="team-details.html"><img src="assets/images/team/team-thumb-03.png" alt="image" /></a>
                       <div className="rs-theme-social rs-team-social has-transparent">
                         <a href="#"><i className="ri-twitter-x-line"></i></a>
                         <a href="#"><i className="ri-facebook-fill"></i></a>
@@ -1359,7 +1453,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-       /
+          /
           <section className="rs-testimonial-area section-space rs-testimonial-one primary-bg rs-swiper">
             <div className="container">
               <div className="row  g-5 section-title-space align-items-center">
@@ -1406,7 +1500,7 @@ export default function Home() {
                             <div className="rs-testimonial-top">
                               <div className="rs-testimonial-avater-wrapper">
                                 <div className="rs-testimonial-avater-thumb">
-                                  <img src="assets/images/user/user-thumb-01.png" alt="image"/>
+                                  <img src="assets/images/user/user-thumb-01.png" alt="image" />
                                 </div>
                                 <div className="rs-testimonial-avater-info">
                                   <h6 className="rs-testimonial-avater-title">John Wlick</h6>
@@ -1414,7 +1508,7 @@ export default function Home() {
                                 </div>
                               </div>
                               <div className="rs-testimonial-icon">
-                                <img src="assets/images/brand/brand-thumb-01.png" alt="image"/>
+                                <img src="assets/images/brand/brand-thumb-01.png" alt="image" />
                               </div>
                             </div>
                             <div className="rs-testimonial-description">
@@ -1444,7 +1538,7 @@ export default function Home() {
                             <div className="rs-testimonial-top">
                               <div className="rs-testimonial-avater-wrapper">
                                 <div className="rs-testimonial-avater-thumb">
-                                  <img src="assets/images/user/user-thumb-02.png" alt="image"/>
+                                  <img src="assets/images/user/user-thumb-02.png" alt="image" />
                                 </div>
                                 <div className="rs-testimonial-avater-info">
                                   <h6 className="rs-testimonial-avater-title">Joshua Sendu</h6>
@@ -1452,7 +1546,7 @@ export default function Home() {
                                 </div>
                               </div>
                               <div className="rs-testimonial-icon">
-                                <img src="assets/images/brand/brand-thumb-01.png" alt="image"/>
+                                <img src="assets/images/brand/brand-thumb-01.png" alt="image" />
                               </div>
                             </div>
                             <div className="rs-testimonial-description">
@@ -1482,7 +1576,7 @@ export default function Home() {
                             <div className="rs-testimonial-top">
                               <div className="rs-testimonial-avater-wrapper">
                                 <div className="rs-testimonial-avater-thumb">
-                                  <img src="assets/images/user/user-thumb-03.png" alt="image"/>
+                                  <img src="assets/images/user/user-thumb-03.png" alt="image" />
                                 </div>
                                 <div className="rs-testimonial-avater-info">
                                   <h6 className="rs-testimonial-avater-title">Penelopa Miller</h6>
@@ -1490,7 +1584,7 @@ export default function Home() {
                                 </div>
                               </div>
                               <div className="rs-testimonial-icon">
-                                <img src="assets/images/brand/brand-thumb-01.png" alt="image"/>
+                                <img src="assets/images/brand/brand-thumb-01.png" alt="image" />
                               </div>
                             </div>
                             <div className="rs-testimonial-description">
@@ -1520,7 +1614,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-       /
+          /
           <section className="rs-brand-area rs-brand-one section-space-bottom primary-bg rs-swiper">
             <div className="container">
               <div className="row  g-5 section-title-space justify-content-center">
@@ -1548,42 +1642,42 @@ export default function Home() {
                         <div className="swiper-slide">
                           <div className="rs-brand-item has-clip-path">
                             <div className="rs-brand-thumb">
-                              <img src="assets/images/brand/brand-thumb-02.png" alt="image"/>
+                              <img src="assets/images/brand/brand-thumb-02.png" alt="image" />
                             </div>
                           </div>
                         </div>
                         <div className="swiper-slide">
                           <div className="rs-brand-item has-clip-path">
                             <div className="rs-brand-thumb">
-                              <img src="assets/images/brand/brand-thumb-03.png" alt="image"/>
+                              <img src="assets/images/brand/brand-thumb-03.png" alt="image" />
                             </div>
                           </div>
                         </div>
                         <div className="swiper-slide">
                           <div className="rs-brand-item has-clip-path">
                             <div className="rs-brand-thumb">
-                              <img src="assets/images/brand/brand-thumb-04.png" alt="image"/>
+                              <img src="assets/images/brand/brand-thumb-04.png" alt="image" />
                             </div>
                           </div>
                         </div>
                         <div className="swiper-slide">
                           <div className="rs-brand-item has-clip-path">
                             <div className="rs-brand-thumb">
-                              <img src="assets/images/brand/brand-thumb-05.png" alt="image"/>
+                              <img src="assets/images/brand/brand-thumb-05.png" alt="image" />
                             </div>
                           </div>
                         </div>
                         <div className="swiper-slide">
                           <div className="rs-brand-item has-clip-path">
                             <div className="rs-brand-thumb">
-                              <img src="assets/images/brand/brand-thumb-06.png" alt="image"/>
+                              <img src="assets/images/brand/brand-thumb-06.png" alt="image" />
                             </div>
                           </div>
                         </div>
                         <div className="swiper-slide">
                           <div className="rs-brand-item has-clip-path">
                             <div className="rs-brand-thumb">
-                              <img src="assets/images/brand/brand-thumb-07.png" alt="image"/>
+                              <img src="assets/images/brand/brand-thumb-07.png" alt="image" />
                             </div>
                           </div>
                         </div>
@@ -1594,7 +1688,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-      /
+          /
           <section className="rs-blog-area section-space rs-blog-one">
             <div className="container">
               <div className="row  g-5 section-title-space align-items-center">
@@ -1690,7 +1784,7 @@ export default function Home() {
                         </div>
                         <div className="rs-blog-thumb has-clip-path order-0 order-sm-1">
                           <a href="blog-details.html">
-                            <img src="assets/images/blog/blog-thumb-02.png" alt="image"/>
+                            <img src="assets/images/blog/blog-thumb-02.png" alt="image" />
                           </a>
                         </div>
                       </div>
@@ -1721,7 +1815,7 @@ export default function Home() {
                         </div>
                         <div className="rs-blog-thumb has-clip-path order-0 order-sm-1">
                           <a href="blog-details.html">
-                            <img src="assets/images/blog/blog-thumb-03.png" alt="image"/>
+                            <img src="assets/images/blog/blog-thumb-03.png" alt="image" />
                           </a>
                         </div>
                       </div>
@@ -1849,17 +1943,17 @@ export default function Home() {
                       <div className="row g-4">
                         <div className="col-md-12">
                           <div className="rs-contact-input">
-                            <input id="name" name="name" type="text" placeholder="Full Name"/>
+                            <input id="name" name="name" type="text" placeholder="Full Name" />
                           </div>
                         </div>
                         <div className="col-md-12">
                           <div className="rs-contact-input">
-                            <input id="email" name="email" type="email" placeholder="Email Address"/>
+                            <input id="email" name="email" type="email" placeholder="Email Address" />
                           </div>
                         </div>
                         <div className="col-md-12">
                           <div className="rs-contact-input">
-                            <input id="info" name="name" type="text" placeholder="Your Inquiry"/>
+                            <input id="info" name="name" type="text" placeholder="Your Inquiry" />
                           </div>
                         </div>
                         <div className="col-md-12">
@@ -1883,90 +1977,90 @@ export default function Home() {
 
         </main>
 
-  
-    <footer className="rs-footer-area rs-footer-one black-bg">
-        <div className="rs-footer-bg-thumb" data-background="assets/images/bg/footer-bg-01.png"></div>
-        <div className="container">
+
+        <footer className="rs-footer-area rs-footer-one black-bg">
+          <div className="rs-footer-bg-thumb" data-background="assets/images/bg/footer-bg-01.png"></div>
+          <div className="container">
             <div className="rs-footer-wrapper">
-                <div className="rs-footer-item">
-                    <div className="rs-footer-widget footer-1-col-1">
-                        <div className="rs-footer-widget-logo">
-                            <a href="index.html"><img src="assets/images/top-logo.svg" alt="logo"/></a>
-                        </div>
-                        <div className="rs-footer-widget-content">
-                            <p className="rs-footer-widget-description">
-                                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                                passages, and more recently works.
-                            </p>
-                            <div className="rs-footer-widget-stroke-text">
-                                <h3 className="rs-footer-stroke-text">Since 2007</h3>
-                            </div>
-                            {/* <div className="rs-footer-copyright underline">
+              <div className="rs-footer-item">
+                <div className="rs-footer-widget footer-1-col-1">
+                  <div className="rs-footer-widget-logo">
+                    <a href="index.html"><img src="assets/images/top-logo.svg" alt="logo" /></a>
+                  </div>
+                  <div className="rs-footer-widget-content">
+                    <p className="rs-footer-widget-description">
+                      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                      passages, and more recently works.
+                    </p>
+                    <div className="rs-footer-widget-stroke-text">
+                      <h3 className="rs-footer-stroke-text">Since 2007</h3>
+                    </div>
+                    {/* <div className="rs-footer-copyright underline">
                                 <p>© <span id="year"></span> Industrie. Designed by <a href="https://rstheme.com/">RSTheme</a>
                                 </p>
                             </div> */}
-                        </div>
-                    </div>
+                  </div>
                 </div>
-                <div className="rs-footer-item">
-                    <div className="rs-footer-widget footer-1-col-2">
-                        <h5 className="rs-footer-widget-title">Useful Links</h5>
-                        <div className="rs-footer-widget-content">
-                            <div className="rs-footer-widget-links">
-                                <ul>
-                                    <li> <a href="#">About Us</a> </li>
-                                    <li><a href="#">Projects</a></li>
-                                    <li><a href="#">Careers</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Pricing</a></li>
-                                    <li><a href="#">Team</a></li>
-                                    <li><a href="#">Contact</a></li>
-                                    <li><a href="#">Terms of use</a></li>
-                                </ul>
-                            </div>
-                        </div>
+              </div>
+              <div className="rs-footer-item">
+                <div className="rs-footer-widget footer-1-col-2">
+                  <h5 className="rs-footer-widget-title">Useful Links</h5>
+                  <div className="rs-footer-widget-content">
+                    <div className="rs-footer-widget-links">
+                      <ul>
+                        <li> <a href="#">About Us</a> </li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                      </ul>
                     </div>
+                  </div>
                 </div>
-                <div className="rs-footer-item">
-                    <div className="rs-footer-widget footer-1-col-3">
-                        <h5 className="rs-footer-widget-title">Newsletter</h5>
-                        <div className="rs-footer-widget-content">
-                            <p className="descrip">Subscribe for the latest news. Stay updated on the latest trends industrie.</p>
-                            <form action="#">
-                                <div className="rs-footer-subscribe-input">
-                                    <input type="email" placeholder="Enter Your Email"/>
-                                </div>
-                            </form>
-                            <div className="rs-footer-btn">
-                                <button type="submit" className="rs-btn has-theme-orange has-icon has-bg">Subscribe Now
-                                    <span className="icon-box">
-                              <svg className="icon-first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                 <path
-                                    d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                 </path>
-                              </svg>
-                              <svg className="icon-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                 <path
-                                    d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
-                                 </path>
-                              </svg>
-                           </span>
-                                </button>
-                            </div>
-                        </div>
+              </div>
+              <div className="rs-footer-item">
+                <div className="rs-footer-widget footer-1-col-3">
+                  <h5 className="rs-footer-widget-title">Newsletter</h5>
+                  <div className="rs-footer-widget-content">
+                    <p className="descrip">Subscribe for the latest news. Stay updated on the latest trends industrie.</p>
+                    <form action="#">
+                      <div className="rs-footer-subscribe-input">
+                        <input type="email" placeholder="Enter Your Email" />
+                      </div>
+                    </form>
+                    <div className="rs-footer-btn">
+                      <button type="submit" className="rs-btn has-theme-orange has-icon has-bg">Subscribe Now
+                        <span className="icon-box">
+                          <svg className="icon-first" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                            <path
+                              d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                            </path>
+                          </svg>
+                          <svg className="icon-second" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                            <path
+                              d="M31.71,15.29l-10-10L20.29,6.71,28.59,15H0v2H28.59l-8.29,8.29,1.41,1.41,10-10A1,1,0,0,0,31.71,15.29Z">
+                            </path>
+                          </svg>
+                        </span>
+                      </button>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-    </footer>
-   
-    <div className="backtotop-wrap cursor-pointer">
-        <svg className="backtotop-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+          </div>
+        </footer>
+
+        <div className="backtotop-wrap cursor-pointer">
+          <svg className="backtotop-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
-    </div>
+          </svg>
+        </div>
 
       </div>
 
